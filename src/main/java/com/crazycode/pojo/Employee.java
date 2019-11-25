@@ -1,5 +1,8 @@
 package com.crazycode.pojo;
 
-public class Teacher {
+import lombok.Data;
+
+@Data
+public class Employee {
     private String name;
 }
